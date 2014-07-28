@@ -5,26 +5,30 @@
   <title>Some Poems</title>
 
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="globals.css">
   <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
 
-<div class="globals grid">
+<div class="globals">
 
+<!-- Header -->
 <header class="header-container">
-  <h1>Poems</h1>
+  <h1 class="header-container__title">Poems</h1>
   <nav class="nav-container">
-    <a href=""></a>
+    <a href="" class="nav-container__link"></a>
   </nav>
 </header>
 
-<section class="poems-container">
-
+<!-- Body -->
+<section class="poems-container centered-layout">
 
   <!-- OZYMANDIAS -->
-  <article class="ozymandias">
-    <h1>Ozymandias</h1>
-    <h2>by Percy Bysshe Shelley</h2>
+  <article class="poems-container__poem a-poem ozymandias">
+    <h1 class="poem__title">Ozymandias</h1>
+    <h2 class="poem__byline">by Percy Bysshe Shelley</h2>
+    <div class="poem__body">
     <p>
       I met a traveller from an antique land<br />
       Who said: `Two vast and trunkless legs of stone<br />
@@ -41,12 +45,19 @@
       Of that colossal wreck, boundless and bare<br />
       The lone and level sands stretch far away.'<br />
     </p>
+    </div>
   </article>
 
 </section>
 
+<!-- Footer -->
 <footer class="footer-container">
-  
+  <nav class="footer-nav">
+    <a href="" class="footer-nav_links"></a>
+  </nav>
+  <p class="credits">
+    <a href="" class="credits__link">Ozy Wu-Li</a>
+  </p>
 </footer>
 
 </div>

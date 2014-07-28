@@ -1,0 +1,29 @@
+/************************ GLOBALS ************************/
+
+.centered-layout {
+  margin: 0 auto;
+  max-width: 1080px;
+
+}
+
+/************************ HEADER ************************/
+
+.header-container {
+  background: #000;
+  color: #FFF;
+}
+
+/************************ BODY ************************/
+
+.poems-container {}
+
+/************************ FOOTER ************************/
+
+.footer-container {
+  background: #000;
+  color: #FFF;
+}
+
+.footer-container a {
+  color: #FFF;
+}

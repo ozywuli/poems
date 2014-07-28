@@ -1,0 +1,4 @@
+.caps { text-transform: uppercase; }
+.smallcaps { font-variant: small-caps; }
+.italics { font-style: italic; }
+.bold { font-weight: bold; }
